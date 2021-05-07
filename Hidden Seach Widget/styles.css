@@ -28,8 +28,7 @@ body {
   height: 50px;
   width: 50px;
   transition: width 0.3s ease;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 10px;
 }
 
 .btn {
@@ -43,8 +42,7 @@ body {
   height: 50px;
   width: 50px;
   transition: transform 0.3s ease;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 10px;
 }
 
 .btn:focus,
@@ -54,8 +52,12 @@ body {
 
 .search.active .input {
   width: 200px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .search.active .btn {
-  transform: translateX(198px);
+  transform: translateX(200px);
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
