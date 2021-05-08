@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My proyect</title>
+    <title>Form Imput Wave</title>
 
     <!-- font awesome-->
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
@@ -13,7 +13,23 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>Lorem ipsum dolor sit amet.</h1>
+    <div class="container">
+      <h1>Please Login</h1>
+      <form>
+        <div class="form-control">
+          <input type="text" required />
+          <label>Email</label>
+        </div>
+
+        <div class="form-control">
+          <input type="password" required />
+          <label>Password</label>
+        </div>
+
+        <button class="btn">Login</button>
+        <p class="text">Don't have an account? <a href="#">Register</a></p>
+      </form>
+    </div>
 
     <script src="./app.js"></script>
   </body>
